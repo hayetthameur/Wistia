@@ -1,0 +1,1252 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Playfair+Display|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap');
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+
+   
+    }
+    html {
+        display: block;
+        color: -internal-root-color;
+    }
+   
+body {
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  
+
+header:hover{
+    background: rgb(247, 245, 245);
+    width: 100%;
+   
+}
+header .navigation{
+  display: flex;
+  justify-content: space-around;
+   
+}
+
+header:hover .navigation .logo-blue{
+    z-index: 1;
+    position: relative;
+  
+    margin-top: 15px;
+     width: 37px;
+     height: 36px;
+    
+  
+}
+
+
+header .navigation .logo-gris{
+    margin-right: -141px;
+    padding-right: -113px;
+    margin-top: 12px;
+    width: 42px;
+    height: 36px;
+    height: 36px;
+    width: 36px;
+    z-index: 1;
+ }
+header .navigation .logo-blue{
+    margin-right: -141px;
+    padding-right: -113px;
+    margin-top: 12px;
+    width: 42px;
+    height: 36px;
+    height: 36px;
+    width: 36px;
+    z-index: 1;
+ }
+header .navigation img{
+   padding-right: 100px;
+   margin-top: 15px;
+    width: 37px;
+    height: 36px;
+    z-index: -1;
+    
+}
+header .navigation .parties{
+    display: flex;
+    justify-content: space-around;
+   width: 500px;
+    padding-top:20px ;
+    padding-left: 20px;
+   
+    
+}
+.navigation .bar .dropbtn{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navigation .bar1 .dropbtn{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navigation .bar2 .dropbtn{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navigation .bar3 .dropbtn{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navigation .bar .dropdown-content .product {
+    color: rgb(10, 145, 236);
+    font-size: 30px;
+    font-weight: bold;
+}
+.navigation .bar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    border-top:1px solid rgb(197, 197, 197) ;
+    margin-top: 41px;
+    left: -706px;
+    padding-left: 444px;
+    box-shadow: none;
+    padding-right: 1100px;
+  } 
+  
+.navigation .bar1 .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    border-top:1px solid rgb(197, 197, 197) ;
+    margin-top: 41px;
+    left: -706px;
+    padding-left: 444px;
+    box-shadow: none;
+    padding-right: 1100px;
+  }
+  .navigation .bar2 .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    border-top:1px solid rgb(197, 197, 197) ;
+    margin-top: 41px;
+    left: -922px;
+    padding-left: 444px;
+    box-shadow: none;
+    padding-right: 1100px;
+  }
+  .navigation .bar3 .dropdown-content {
+    display: none;
+    color: black;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    border-top:1px solid rgb(197, 197, 197) ;
+    margin-top: 41px;
+    left: -1051px;
+    padding-left: 444px;
+    box-shadow: none;
+    padding-right: 1100px;
+
+  }
+
+  .navigation .bar:hover .dropdown-content 
+  {
+   display: flex;
+ } 
+  .navigation .bar1:hover .dropdown-content 
+  {
+   display: flex;
+ }
+ .navigation .bar2:hover .dropdown-content 
+ {
+  display: flex;
+}
+.navigation .bar3:hover .dropdown-content 
+ {
+  display: flex;
+
+
+}
+
+.navigation .bar:hover .dropbtn {
+    text-decoration: none;
+    width: 100%;
+    color: rgb(10, 145, 246);
+  }  
+  .navigation .bar1:hover .dropbtn {
+    text-decoration: none;
+    width: 100%;
+    color: rgb(77, 153, 87);
+  }
+  .navigation .bar2:hover .dropbtn {
+    text-decoration: none;
+    width: 100%;
+    color: rgb(75, 7, 233);
+  }
+  .navigation .bar3:hover .dropbtn {
+    color: #DB2861;
+    width: 100%;
+    text-decoration: none;
+  }
+  
+  .navigation .bar .dropdown-content ul {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    list-style:none ;
+    display: block;
+    width: 150px;
+  }
+  
+  .navigation .bar1 .dropdown-content ul {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    list-style:none ;
+    display: block;
+    width: 150px;
+  }
+  .navigation .bar2 .dropdown-content ul {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    list-style:none ;
+    display: block;
+    width: 150px;
+  }
+  .navigation .bar3 .dropdown-content ul {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    list-style:none ;
+    display: block;
+    width: 150px;
+  }
+  
+  .dropdown-content ul:hover 
+  {
+      background-color: #f1f1f1;
+      
+    }
+    
+  
+  .navigation .bar {
+    
+
+
+    position: relative;
+    display: inline-block;
+    width: 66px;
+  
+    color: white;
+
+
+  }
+  .navigation .bar1 {
+    position: relative;
+    display: inline-block;
+    width: 135px;
+    padding-left: 26px;
+    color: white;
+  }
+  
+  .navigation .bar2 {
+    position: relative;
+    display: inline-block;
+    width: 166px;
+    margin-right: -74px;
+    color: white;
+  }
+  .navigation .bar3 {
+    position: relative;
+    display: inline-block;
+    width: 166px;
+    margin-right: -74px;
+    color: white;
+    
+  }
+  .navigation .bar1 .dropdown-content .image {
+    width: 150px;
+    height: 300px;
+  }
+  .navigation .bar2 .dropdown-content .img{
+    width: 150px;
+    height: 300px;
+  }
+  
+  
+.nav1 ul i{
+    color: gray;
+}
+
+ 
+.nav1 ul {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    padding-right: 821px;
+    padding-top: 21px;
+    text-align: left;
+    }
+.nav1 ul li {
+  
+        list-style: none;
+        
+        
+    }
+.nav1 li a
+    {text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+
+    }
+    
+
+header  .btn-log{
+    width: 133px;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-left: 38px;
+      
+    }
+    header  .btn-start{
+        width: 133px;
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        margin-left: 38px;
+        background-color: #1197EC;
+  
+    }
+ .btn-log{
+   margin-top: 20px;
+    background-color:#ebe6e6 ;
+    color: rgb(7, 7, 7);
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+  
+   padding: 10px;
+ 
+     
+}
+
+ .btn-start{
+    margin-top: 20px;
+    background-color:#fcf8f9 ;
+    color: rgb(7, 7, 7);
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 200px;
+  padding: 10px;
+  
+}
+
+header, .into{
+    background-image:url(https://wistia.com/static/images/homepage/wistia-home-pattern_header@2x.webp);
+    background-size: 150px 130px;
+    
+   
+}
+
+.into .soft span{
+    border: 1px solid #DB2861;
+    background-color:#DB2861 ;
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+
+   
+}
+.into .soft span:hover{
+    position: relative;
+    bottom: 5px;
+    border-bottom: 3px solid rgb(70, 69, 70);
+
+}
+.into .soft span{
+    width: 100px;
+    height: 50px;
+   
+   
+}
+
+.into{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+.into .soft{
+   
+    width: 450px;
+   flex-wrap: wrap;
+   margin-left: 200px;
+   margin-top: 100px;
+  
+}
+.into .soft h1{
+   font-size: 40px;
+   flex-wrap: wrap;
+   font-family: ' Playfair Display Oswald', sans-serif;
+   color: blanchedalmond;
+   font-weight: 500;
+   line-height: 50px;
+
+ }
+.into .soft p{
+    font-size: 21px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    text-align: justify;
+    padding-bottom: 40px;
+    
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+     
+ }
+
+.into video{
+    width: 600px;
+    height: 600px;
+    margin-right: 200px;
+   
+
+}
+
+
+.into  img {
+  
+    width: 700px;
+    height: 700px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 370px;
+ 
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    height: 280px;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    
+    }
+
+.brand .info h1
+    {
+       padding-bottom:40px;
+       padding-top:40px ;
+       font-family: 'Playfair Display', serif;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 24px;
+       font-weight: 700;
+       color: rgb(42, 45, 53);
+     }
+    .brand .info .btn-learn
+{    
+    border: 1px solid #3EA9F5;
+    background-color:white ;
+    color: #3EA9F5;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 400px;
+
+     
+}
+
+.brand .info .btn-learn:hover{
+    position: relative;
+    bottom: 5px;
+    border-bottom: 5px solid rgb(62, 169, 245);
+
+}
+
+ .categories{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 133px;
+        height: 379px;
+             
+}
+
+.categories .cat1{
+    padding-bottom:10px ;
+    width: 300px;
+   flex-wrap: wrap;
+   margin-left: 20px;
+  
+
+}
+.categories .cat1 i{
+  color: #1d0752;
+  font-size: 35px;
+  margin-left: 20px;
+
+}
+.categories .cat1 h1{
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    font-weight:bold;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.categories .cat1 p{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 18px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.categories .cat2{
+    padding-bottom:10px ;
+    width: 300px;
+   flex-wrap: wrap;
+   margin-left: 15px;
+}
+.categories .cat2 i{
+   color: rgb(243, 57, 119);
+   font-size: 35px;
+   margin-left: 20px;
+}
+.categories .cat2 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    font-weight:bold;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.categories .cat2 p{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 18px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    font-weight: 400;
+    line-height: 28px;
+   
+}
+.categories .cat3{
+    padding-bottom:10px ;
+    width: 300px;
+   flex-wrap: wrap;
+   margin-left: 15px;
+ 
+}
+.categories .cat3 i{
+    color: rgb(11, 66, 5);
+    font-size: 35px;
+    margin-left: 20px;
+}
+.categories .cat3 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    font-weight:bold;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.categories .cat3 p{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 18px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    font-weight: 400;
+    line-height: 28px;
+   
+}
+.categories .cat4{
+    padding-bottom:10px ;
+    width: 300px;
+   flex-wrap: wrap;
+   margin-left: 15px;
+  
+}
+.categories .cat4 i{
+    color: rgb(212, 92, 44);
+    font-size: 35px;
+    margin-left: 20px;
+}
+.categories .cat4 h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    font-weight:bold;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+.categories .cat4 p{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 18px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    font-weight: 400;
+    line-height: 28px;
+   
+}
+.studio{
+    display: flex;
+    justify-content: center;
+    background-color:#363945;
+    color: rgb(255, 255, 255);
+    padding-bottom: 199px;
+    padding-top:196px;
+   
+   
+ }
+.studio .about
+{   width: 350px;
+    flex-wrap: wrap;
+  
+    padding-right:20px ;  
+}
+.studio .about p
+{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    flex-wrap: wrap;
+   line-height: 34px;
+    padding-right:20px ;  
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+   
+}
+.studio .about h2
+{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    flex-wrap: wrap;
+    line-height: 40px;
+    padding-right:20px ;  
+   
+}
+.studio .about h4
+{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    flex-wrap: wrap;
+    
+    padding-right:20px ; 
+    font-weight: 600;
+}
+
+.studio .picture .pic{
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 160px;
+    margin-top: 260px;
+    margin-left: 40px;
+    object-fit:contain;
+    box-shadow: none;
+}
+.studio .picture2 .pic{
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 160px;
+    margin-top: 270px;
+    margin-left: -860px;
+    object-fit:contain;
+   box-shadow: none;
+    
+    
+}
+
+.studio .picture img{
+    width: 426px;
+    height: 497px;
+    
+    object-fit: cover;
+    margin-bottom: -38px;
+    border-radius: 7px ;
+    box-shadow: 4px 4px 5px #252525;
+}
+.studio .picture2 img{
+    width: 426px;
+    height: 497px;
+   
+    object-fit: cover;
+    margin-bottom: -38px;
+    border-radius: 7px ;
+    box-shadow: 4px 4px 5px #252525;
+    margin-left: 20px;
+
+   
+
+}
+.studio .picture .btn1 {
+  
+    border: 1px solid rgb(173, 172, 172);
+    color: rgb(182, 201, 236);
+    padding: 15px 61px;
+    font-size: 18px;
+    border-bottom: none;
+    border-left: none;
+    
+}
+.studio .picture .btn1:hover{
+    background-color: #363945;
+    cursor: pointer;
+
+}
+.studio .picture .btn2:hover{
+    background-color: #aa0947;
+    cursor: pointer;
+
+}
+.studio .picture2 .btn-studio2:hover{
+    background-color:rgb(45, 124, 45);
+    cursor: pointer;
+   
+
+}
+.studio .picture2 .btn-studio1:hover{
+    background-color: #363945;
+    cursor: pointer;
+
+}
+.studio .picture .btn2{
+        border: 1px solid rgb(173, 172, 172);
+        color: rgb(182, 201, 236);
+        margin-left: -4px;
+        font-size: 18px;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        padding: 15px 66px;
+       
+    
+}
+
+.studio .picture2 .btn-studio1 {
+    padding: 15px 61px;
+    border: 1px solid rgb(173, 172, 172);
+    color: rgb(182, 201, 236);
+    margin-left: 20px;
+    font-size: 18px;
+    border-bottom: none;
+    border-left: none;
+    font-weight: bold;
+}
+.studio .picture2  .btn-studio2{
+    
+    border: 1px solid rgb(173, 172, 172);
+    color: rgb(182, 201, 236);
+    margin-left: -5px;
+    font-size: 18px;
+  
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 15px 66px;
+   
+}
+
+
+
+.proud{
+    display: flex;
+    justify-content: center;
+}
+.proud figcaption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.proud img{
+    padding-top: 20px;
+    width: 200px;
+    height: 70px;
+    padding-bottom: 60px;
+}
+.about-wistia{
+    display: flex;
+   justify-content: center;
+   padding-bottom: 92px;
+}
+.about-wistia-title{
+    display: flex;
+   justify-content: center;
+   font-size: 19px;
+   font-weight: 700px;
+   font-family: 'Playfair Display', serif;
+   font-family: 'Quicksand', sans-serif;
+   color: rgb(42, 45, 53);
+}
+.about-wistia .hubspot{
+   
+width: 400px;
+
+  
+  
+}
+.about-wistia .hubspot h3{
+
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: rgb(42, 45, 53);
+}
+.about-wistia .hubspot p{
+   
+    font-family: 'Quicksand', sans-serif;    font-size: 20px;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(42, 45, 53);
+
+}
+.about-wistia .hubspot img{
+    width: 344px;
+    height: 246px;
+ }
+
+    
+   
+.about-wistia  .hubspot .image:hover{
+        color:rgb(58, 177, 106);;
+       
+        
+    }
+   
+   
+
+.about-wistia .wistia-founder{
+
+    width: 400px;
+  
+    margin-left: 20px;
+}
+.about-wistia .wistia-founder p{
+    font-family: 'Quicksand', sans-serif;    font-size: 20px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    padding-left: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(42, 45, 53);
+}
+.about-wistia .wistia-founder h3{
+    padding-left: 19px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: rgb(42, 45, 53);
+}
+.about-wistia .wistia-live h3{
+    font-family: 'Libre Baskerville', serif;
+   margin-left: 38px;
+   font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: rgb(42, 45, 53);
+
+}
+.about-wistia .wistia-live{
+    width: 400px;
+    margin-left: 20px;
+}
+
+ .about-wistia .wistia-founder img{
+    margin-left: 19px;
+    width: 344px;
+    height: 246px;
+  
+ }
+ .about-wistia .wistia-live img{
+    padding-left: 38px;
+    width: 344px;
+    height: 246px;
+  
+ }
+ .about-wistia .wistia-live p{
+    font-family: 'Quicksand', sans-serif;    font-size: 20px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    padding-left: 38px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(42, 45, 53);
+   
+
+}
+.about-wistia .wistia-live a{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 38px;
+    color: rgb(55, 105, 204);
+}
+.about-wistia .wistia-live a:link{
+    color:rgb(55, 105, 204) ;
+}
+.about-wistia .wistia-live a:visited{
+    color:rgb(55, 105, 204) ;
+}
+.about-wistia .wistia-live a:active{
+    color:rgb(55, 105, 204) ;
+}
+.about-wistia .wistia-founder a{
+
+    padding-left: 19px;
+   
+
+}
+.business{
+    display: flex;
+    justify-content: center;
+    background-image:url(https://wistia.com/static/images/homepage/wistia-home-pattern_header@2x.webp);
+    color: rgb(255, 255, 255);
+    padding-top: 345px;
+    padding-bottom: 100px;
+    background-size: 150px 130px;
+    height: 690px;
+}
+
+.business .brand-affinity h1{
+ width: 700px;
+flex-wrap: wrap;
+font-size: 40px;
+margin-left: 250px;
+text-align: center;
+margin-bottom: 100px;
+line-height:80px;
+
+}
+
+    .business .brand-affinity .btn-free
+    {    
+        border: 1px solid #DB2861;
+        background-color:#DB2861 ;
+        color: rgb(255, 255, 255);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left:50px ;
+        padding-right:50px ;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 400px;
+            
+    }
+    
+    .business .brand-affinity .btn-free:hover{
+        position: relative;
+        bottom: 5px;
+        border-bottom: 5px solid rgb(250, 69, 123);
+    
+    }
+    .business .brand-affinity .btn-explore
+    {    
+        border: 1px solid  white;
+        background-color:white ;
+        color: rgb(19, 18, 18);
+        padding: 25px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 50px;
+            
+    }
+    
+    .business .brand-affinity .btn-explore:hover{
+        position: relative;
+        bottom: 5px;
+        border-bottom: 5px solid rgb(211, 208, 208);
+    
+    }
+    
+    .studio .picture .btn-studio2{
+        border: 1px solid rgb(182, 201, 236);
+        align-self: center;
+        color: rgb(182, 201, 236);
+        padding: 15px;
+        border-radius: 5px;
+   
+}
+/*.business .brand-affinity .btn-explore{
+    background-color: rgb(252, 247, 249);
+    align-self: center;
+    color: rgb(182, 201, 236);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solide rgb(121, 9, 70);
+    margin-left: 100px;
+    font-size: 20px;
+
+}
+.business .brand-affinity .btn-explore:hover{
+    box-shadow: 0 16px 32px 0 rgba(189, 6, 6, 0.2), 0 6px 20px 0 rgba(104, 49, 150, 0.19);
+    background-color: rgb(251, 253, 253);
+}*/
+.my-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:#2A2D35;
+    height: 440px;
+   
+    padding-top: 93px;
+    
+ 
+    color: rgb(255, 255, 255);
+}
+ 
+.my-footer .my-list ul{
+    list-style-type: none;
+    display: inline-flex;
+   
+}
+
+.my-footer .my-list ul li a
+{
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+font-size: 18px;
+
+
+
+}
+.my-footer .my-list{
+    width: 410px;
+ 
+}
+
+.my-footer .my-list h3
+{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+  
+    font-weight: 400;
+  
+}
+.my-footer .my-list p
+{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+   
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+   
+    color: rgb(255, 255, 255);
+     
+}
+.my-footer .my-list ul li a:link{
+    color: rgb(58, 177, 106);
+    
+    
+}
+.my-footer .my-list ul li a:hover{
+    color:rgb(58, 177, 106);
+    text-decoration: underline;
+    
+}
+.my-footer .my-list ul li a:active{
+    color:rgb(58, 177, 106);
+    text-decoration: underline;
+}
+.my-footer .my-list ul li a:visited{
+    color:rgb(58, 177, 106);
+    text-decoration: underline;
+    
+}
+.my-footer .line{
+    border-left: 1.5px solid rgb(69, 70, 69);
+    height: 130px;
+    padding-top:150px;
+  
+   
+}
+.my-footer .product ul{
+    padding-bottom:10px ;
+    line-height: 35px;
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.my-footer .product ul :visited{
+    color: white;
+    text-decoration: none;
+}
+.my-footer .product ul :link{
+    color: white;
+    text-decoration: none;
+}
+.my-footer .product ul :active{
+    color: white;
+    text-decoration: none;
+}
+.my-footer .product .pro{
+    color: rgb(146, 143, 143);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.my-footer .series .pro{
+    color: rgb(146, 143, 143);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.my-footer .about .pro{
+    color: rgb(146, 143, 143);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.my-footer .support .pro{
+    color: rgb(146, 143, 143);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.my-footer .series ul{
+    padding-bottom:10px ;
+    line-height: 35px;
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.my-footer .series ul :visited{
+    color: white;
+    text-decoration: none;
+}
+.my-footer .series ul :link{
+    color: white;
+    text-decoration: none;
+}
+.my-footer .series ul :active{
+    color: white;
+    text-decoration: none;
+}
+
+.my-footer .about ul{
+    padding-bottom:10px ;
+    line-height: 35px;
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}.my-footer .about ul :visited{
+    color: white;
+    text-decoration: none;
+}
+.my-footer .about ul :link{
+    color: white;
+    text-decoration: none;
+}
+.my-footer .about ul :active{
+    color: white;
+    text-decoration: none;
+}
+.my-footer .support ul{
+    padding-bottom:10px ;
+    line-height: 35px;
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.my-footer .support ul :visited{
+    color: white;
+    text-decoration: none;
+}
+.my-footer .support ul :link{
+    color: white;
+    text-decoration: none;
+}
+.my-footer .support ul :active{
+    color: white;
+    text-decoration: none;
+}
+
+.copyright-footer{
+    display: flex;
+    justify-content: center;
+    background-color:#2A2D35;
+    color: rgb(178, 185, 193);
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400px;
+    
+}
+.copyright-footer a:link{
+    color: rgb(178, 185, 193);
+    text-decoration: underline;
+}
+.copyright-footer a:visited{
+    color: rgb(178, 185, 193);
+    text-decoration: underline;
+}
+.copyright-footer a:hover{
+    color: rgb(45, 124, 45);
+    text-decoration: underline;
+
+}
+
+
+

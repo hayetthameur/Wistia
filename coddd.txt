@@ -1,0 +1,21 @@
+ <span class="btn btn1 ">More details</span>
+                                <span class="btn btn2">Watch now</span>
+
+
+
+
+
+
+
+                                 <div class="picture">
+                        <img src="https://images.ctfassets.net/j7pfe8y48ry3/01pFSQaxkltRQYSlHBkL7n/ece2aab2ea0bf53d78e98fd6f9b99872/card_brandwagon_update.jpg?w=920">
+                        <img  class="pic"src="https://wistia.com/static/images/series/logo_one-ten-onehundred.webp">
+                        <div class="btn-grp">
+                          
+                                <span class="btn" >More details</span>
+                                <span class="btn" class="btn2">Watch now</span>
+                            
+                           
+                        </div>
+                           
+                    </div>
